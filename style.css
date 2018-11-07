@@ -1,10 +1,17 @@
 p {
   color: #3f3f3f;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   color: #3f3f3f;
+  text-align: center;
+}
+
+a:hover {
+  color: #E5A9D0;
+  transition: .2s;
 }
 
 header {
@@ -122,7 +129,7 @@ table {
 }
 
 td {
-  padding: 0 15px;
+  padding: 0 10px;
   text-align: center;
   color: #3f3f3f;
 }
@@ -145,11 +152,15 @@ td {
   line-height: 35px;
 }
 
+#spot {
+  text-align: center;
+}
+
 #spot p {
   text-align: center;
 }
 
-#spot div {
+.flex {
   width: 100vw;
   display: flex;
   display: -webkit-flex;
@@ -160,10 +171,67 @@ td {
   flex-wrap: wrap;
 }
 
+.flex img {
+  display: inline-block;
+}
+
 #spot img {
   width: 350px;
   margin: 10px;
 }
+
+.dl {
+  display: inline-block;
+  position: relative;
+  top: -130px;
+  left: 18%;
+  background: #E5A9D0;
+  border-radius: 50%;
+  text-align: center;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 0 5px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  vertical-align: middle;
+  color: #FFF;
+  font-size: 20px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.dl:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -23px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #E5A9D0;
+  z-index: 0;
+}
+
+.dl a {
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  color: #fff;
+  font-family: 'Pacifico',
+    cursive;
+  font-size: 12px;
+  line-height: 50px;
+  font-weight: 100;
+}
+
+.dl a:hover {
+  color: ##E5A9D0;
+  font-weight: 800;
+  transform: rotate(90);
+  transition: 1s;
+}
+
+.map {}
 
 footer {
   padding: 20px;
