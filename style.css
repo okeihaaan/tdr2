@@ -1,0 +1,174 @@
+p {
+  color: #3f3f3f;
+}
+
+a {
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
+header {
+  height: 80vh;
+  background: url(img/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  font-weight: 100;
+  font-size: 30px;
+  text-shadow: #00adff 0 0 15px;
+  text-align: center;
+  padding-top: 30vh;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-shadow: #00adff 0 0 7px;
+  text-align: center;
+  padding-top: 1.2vh;
+}
+
+header p {
+  color: #fff;
+  font-family: 'Pacifico',
+    cursive;
+  font-weight: 100;
+  letter-spacing: .1em;
+  font-size: 20px;
+  text-shadow: #00adff 0 0 7px;
+  text-align: center;
+  padding-top: 2vh;
+}
+
+nav {
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+}
+
+nav ul {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+h3,
+h4 {
+  display: block;
+  margin: 25px;
+  color: #333;
+  font-family: 'Pacifico', cursive;
+  font-weight: 100;
+  text-align: center;
+  clear: both;
+}
+
+#about {
+  width: 100vw;
+  text-align: center;
+}
+
+#about p {
+  font-family: 'Arimo', sans-serif;
+}
+
+#about ul {
+  float: left;
+  position: relative;
+  width: 100vw;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+#about ul li {
+  display: block;
+  position: relative;
+  list-style-type: none;
+  color: #3f3f3f;
+  text-align: center;
+  line-height: 20px;
+}
+
+iframe {
+  margin: 30px;
+}
+
+table {
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 0 15px;
+  text-align: center;
+  color: #3f3f3f;
+}
+
+.circle {
+  border-radius: 50%;
+  color: #fff;
+  font-family: 'Arimo', sans-serif;
+  margin: 20px;
+  padding: 0;
+  width: 55px;
+  height: 55px;
+  background-color: #AED9E0;
+  font-size: 13px;
+}
+
+.transfar {
+  color: #ddd;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+#spot p {
+  text-align: center;
+}
+
+#spot div {
+  width: 100vw;
+  display: flex;
+  display: -webkit-flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#spot img {
+  width: 350px;
+  margin: 10px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+}
