@@ -156,9 +156,10 @@ td {
   text-align: center;
 }
 
+/*
 #spot p {
   text-align: center;
-}
+} */
 
 .flex {
   width: 100vw;
@@ -176,19 +177,31 @@ td {
 }
 
 #spot img {
+  clear: both;
   width: 350px;
-  margin: 10px;
+  float: center;
+}
+
+.container {
+  position: relative;
+}
+
+.container p {
+  width: 53vw;
+  float: left;
+  text-align: right;
 }
 
 .dl {
   display: inline-block;
+  float: left;
   position: relative;
-  top: -130px;
-  left: 18%;
+  top: -10px;
   background: #E5A9D0;
   border-radius: 50%;
   text-align: center;
-  margin: 1.5em 0 1.5em 15px;
+  margin: 0;
+  margin-left: 10px;
   padding: 0 5px;
   width: 70px;
   height: 70px;
@@ -231,8 +244,19 @@ td {
   transition: 1s;
 }
 
+.map-img {
+  display: block;
+  width: 100vw;
+  clear: both;
+  margin: -100px 10px 0;
+}
+
+.mao-img img {
+  margin: -70px 10px 0;
+}
+
 #spot ul li {
-  margin-left: 40%;
+  margin-left: 30vw;
 }
 
 footer {
