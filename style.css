@@ -231,6 +231,10 @@ td {
   transition: 1s;
 }
 
+#spot ul li {
+  margin-left: 40%;
+}
+
 footer {
   padding: 20px;
   background-color: #333;
