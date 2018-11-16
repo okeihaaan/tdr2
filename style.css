@@ -292,6 +292,10 @@ td {
   background: #D4F4DD;
 }
 
+.fastpass .card {
+  background: #AED9E0;
+}
+
 details {
   transition: 1s;
 }
