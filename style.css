@@ -1,3 +1,8 @@
+body {
+  color: #3f3f3f;
+  font-family: "M PLUS Rounded 1p";
+}
+
 p {
   color: #3f3f3f;
   text-align: center;
@@ -34,7 +39,7 @@ h1 {
   padding-top: 30vh;
 }
 
-h2 {
+header h2 {
   color: #fff;
   font-family: 'Arimo', sans-serif;
   font-weight: 300;
@@ -81,15 +86,30 @@ nav a {
   text-decoration: none;
 }
 
+h2,
 h3,
 h4 {
   display: block;
-  margin: 25px;
+  margin: 20px 15px;
   color: #333;
   font-family: 'Pacifico', cursive;
   font-weight: 100;
   text-align: center;
   clear: both;
+}
+
+h2 {
+  margin: 70px 15px 40px;
+}
+
+h3 {
+  margin: 50px 15px 30px;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 700;
 }
 
 #about {
@@ -186,8 +206,9 @@ td {
   position: relative;
 }
 
-.container p {
-  width: 53vw;
+.dl-title {
+  display: inline-block;
+  width: 52vw;
   float: left;
   text-align: right;
 }
@@ -257,6 +278,34 @@ td {
 
 #spot ul li {
   margin-left: 30vw;
+}
+
+.card {
+  background: #F7F5BE;
+  margin: 10px;
+}
+
+.area .card {
+  background: #D4F4DD;
+}
+
+details {
+  transition: 1s;
+}
+
+summary {
+  cursor: pointer;
+  display: inline-block;
+  /* width: 300px;
+  padding: 10px; */
+}
+
+summary h4 {
+  display: inline-block;
+}
+
+summary h5 {
+  display: inline-block;
 }
 
 footer {
