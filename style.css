@@ -3,15 +3,22 @@ body {
   font-family: "M PLUS Rounded 1p";
 }
 
-p {
+p,
+ul li {
+  font-family: "M PLUS Rounded 1p";
   color: #3f3f3f;
   text-align: center;
 }
 
 a {
+  font-family: "M PLUS Rounded 1p";
   text-decoration: none;
   color: #3f3f3f;
   text-align: center;
+}
+
+table tr td {
+  font-family: "M PLUS Rounded 1p";
 }
 
 a:hover {
@@ -135,7 +142,7 @@ h6 {
   list-style-type: none;
   color: #3f3f3f;
   text-align: center;
-  line-height: 20px;
+  line-height: 23px;
 }
 
 iframe {
@@ -176,11 +183,6 @@ td {
   text-align: center;
 }
 
-/*
-#spot p {
-  text-align: center;
-} */
-
 .flex {
   width: 100vw;
   display: flex;
@@ -196,7 +198,7 @@ td {
   display: inline-block;
 }
 
-#spot img {
+.container img {
   clear: both;
   width: 350px;
   float: center;
@@ -258,7 +260,8 @@ td {
   font-weight: 100;
 }
 
-.dl a:hover {
+.dl a:hover,
+.dl a:visited {
   color: ##E5A9D0;
   font-weight: 800;
   transform: rotate(90);
@@ -306,6 +309,33 @@ summary h4 {
 
 summary h5 {
   display: inline-block;
+}
+
+.airbnb img {
+  display: block;
+  margin: 0 auto;
+}
+
+.host img {
+  width: 150px;
+  border-radius: 50%;
+  padding: 10px 0 20px;
+}
+
+.airbnb img {
+  margin: 10px auto;
+}
+
+.airbnb ul {
+  position: relative;
+  left: -15%;
+  width: 100vw;
+}
+
+.airbnb ul li {
+  list-style-type: none;
+  color: #3f3f3f;
+  line-height: 23px;
 }
 
 footer {
