@@ -10,6 +10,20 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo|Pacifico|M+PLUS+Rounded+1p">
   <title>Trip to TDR</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $('.navToggle').click(function () {
+        $(this).toggleClass('active');
+
+        if ($(this).hasClass('active')) {
+          $('.globalMenuSp').addClass('active');
+        } else {
+          $('.globalMenuSp').removeClass('active');
+        }
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -18,12 +32,23 @@
     <h2>2018.11.20-22</h2>
     <p>Where dreams come true</p>
   </header>
+
+  <nav class="globalMenuSp">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#spot">Spot</a></li>
+    </ul>
+  </nav>
+
+  <div class="navToggle">
+    <span></span><span></span><span></span><span>menu</span>
+  </div>
   <nav>
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#schedule">Schedule</a></li>
       <li><a href="#spot">Spot</a></li>
-      <li><a href="#"></a></li>
     </ul>
   </nav>
   <main>
@@ -231,7 +256,7 @@
             <tr class="transfar">
               <td class="">|</td>
               <td><i class="fas fa-train"></i> 2h30min</td>
-              <td></td>
+              <td><a href="http://ux.nu/vSas7" target="_blank">乗り換え</a></td>
             </tr>
             <tr class="">
               <td class="circle">23:30</td>
